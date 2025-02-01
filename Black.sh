@@ -79,7 +79,7 @@
 ##      Copyright (C) 2025  HTR-TECH (https://github.com/Pranav-V-20)
 ##
 
-__auth__="-Pranav"
+__auth__="-Pranav V"
 
 ## DEFAULT HOST & PORT
 HOST='127.0.0.1'
@@ -171,7 +171,7 @@ banner() {
 		${RED}                                 | |                                
 		${RED}                                 |_|                ${WHITE} ${__auth__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Pranav${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Pranav V${WHITE}
 	EOF
 }
 
