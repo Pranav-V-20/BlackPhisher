@@ -7,7 +7,7 @@ Setup
 
 Install the tool:
 
-    git clone https://github.com/Pranav-V-20/BlackPhisher
+    git clone https://github.com/Pranav-V-20/BlackPhisher.git
 
     
 Enter into Folder:
