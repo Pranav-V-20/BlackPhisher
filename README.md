@@ -9,9 +9,9 @@ Features
 ---
 Prerequisites:
 
--Operating System: Linux-based OS or Termux(Android).
+- Operating System: Linux-based OS or Termux(Android).
 
--Required Packages: `git`, `bash` and `curl`
+- Required Packages: `git`, `bash` and `curl`
 
 #Steps
 ---
@@ -29,13 +29,13 @@ chmod +x black.sh
 
 #Usage
 ---
--Launch BlackPhisher by running the script.
+- Launch BlackPhisher by running the script.
 
--Select a phishing template from the menu.
+- Select a phishing template from the menu.
 
--Choose a tunneling option.
+- Choose a tunneling option.
 
--Share the generated link with the target only in authorized environment.
+- Share the generated link with the target only in authorized environment.
 
 
 #Contributing
