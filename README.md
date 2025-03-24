@@ -1,50 +1,35 @@
-# BlackPhisher
-
-Blackphisher is a google phishing tool, it use localxpose to host the phishing link.
-
-Setup
+#BlackPhisher
 ---
+BlackPhisher is an advanced phishing tool that automates phishing attacks on various platforms. It is designed for educational and research purposes to help individuals and organizations enhance their security measures and raise awareness about phishing tactics.
+⚠️ Disclaimer: Use BlackPhisher responsibly and ethically. This tool is intended for authorized testing and educational purposes only. Unauthorized use of this tool is illegal and unethical.
+Features
 
-Install the tool:
-
-    git clone https://github.com/Pranav-V-20/BlackPhisher.git
-
-    
-Enter into Folder:
-
-    cd BlackPhisher
-
-
-Run the tool:
-
-    bash Black.sh
-
-
-Link Creation
+#Installation
 ---
+Prerequisites
+-Operating System: Linux-based OS or Termux(Android).
+-Required Packages: `git`, `bash` and `curl`
 
-Select [1] for google
-
-Select [2] for new google page
-
-Select [2] for localxpose server
-
-Then signup & signin into localxpose.com 
-
-Then copy the token and paste in the terminal
-
-if you want to change the port number enetr [y] orelse [n], Same for server region
-
-If you want to mask the url then entter [y] and enter your own url, orelse [n]
-
-Then copy the url 3 and share to your frds or victim.
-
-Drawbacks
+#Steps
 ---
+Clone the repository:
+```txt
+https://github.com/Pranav-V-20/BlackPhisher.git
+cd BlackPhisher  
+```
 
-Firewalls detects the phishing list and as permissiom to visit the url in android as well as windows.
+Give execute permission and run the script:
+```txt
+chmod +x black.sh  
+./black.sh  
+```
 
-Disclaimer
+#Usage
 ---
+-Launch BlackPhisher by running the script.
+-Select a phishing template from the menu.
+-Choose a tunneling option.
+-Share the generated link with the target only in authorized environment.
 
-Dont use it for illegal actives.
+Contributing
+We welcome contributions! Feel free to fork the repository and submit pull requests for bug fixes or new features
