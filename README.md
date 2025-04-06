@@ -3,7 +3,6 @@
 BlackPhisher is an advanced phishing tool that automates phishing attacks on various platforms. It is designed for educational and research purposes to help individuals and organizations enhance their security measures and raise awareness about phishing tactics.
 
 ⚠️ Disclaimer: Use BlackPhisher responsibly and ethically. This tool is intended for authorized testing and educational purposes only. Unauthorized use of this tool is illegal and unethical.
-Features
 
 #Installation
 ---
